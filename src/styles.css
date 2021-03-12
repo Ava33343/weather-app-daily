@@ -1,0 +1,180 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    color: rgb(87, 84, 84);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    height: 28px;
+    line-height: 28.8px;
+    text-align: left;
+    margin-left: 3px;
+}
+
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+li {
+    color: rgb(87, 84, 84);
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+}
+
+small {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn btn-success img{
+  color:rgb(255, 233, 184)
+}
+
+.weather-app {
+    border: 1px solid #d4dfee;
+    padding: 15px;
+    margin: 5px auto;
+    border-radius: 10px;
+    max-width: 700px;
+  }
+
+.weather-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 20px;
+}
+
+#temperature {
+    color: rgb(32, 33, 36);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 17px;
+}
+
+#snowman {
+  width: 230px;
+  height: 100px;
+  border:2px solid #ccc;
+  background: url(img/tiger.png) no-repeat;
+  box-shadow: 10px 10px 5px rgb(255, 233, 184);
+  -moz-box-shadow: 10px 10px 5px rgb(255, 233, 184);
+  -webkit-box-shadow: 10px 10px 5px rgb(255, 233, 184);
+  -khtml-box-shadow: 10px 10px 5px rgb(255, 233, 184);
+}
+
+#date-time {
+  font-size: 19px;
+  color:rgb(87, 84, 84);
+  margin-left: 3px;
+}
+
+#weather-description {
+  font-size: 19px;
+  color:rgb(87, 84, 84);
+  margin-left: 3px;
+}
+
+.units {
+  font-size: 17px;
+  text-decoration: none;
+  position: relative;
+  top: -30px;
+}
+
+.units .active {
+  color: rgb(4, 76, 117);
+  cursor: default;
+  text-decoration: none;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: left;
+    margin: 50px auto;
+    border-radius: 30px;
+    background-size: 1200px;
+    background-position: center;
+    padding: 20px;
+    max-width: 750px;
+    background-image: url(
+      "https://media.giphy.com/media/mno6BJfy8USic/giphy.gif"
+      );
+}
+
+.weather-forecast {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 23, 124);
+    font-size: 17px;
+    font-weight: 500;
+    height: auto;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .weather-forecast h3 {
+    color: rgb(13, 10, 161);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    padding-top: 7px;
+  }
+  
+  .weather-forecast img {
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 48px;
+  }
+
+  .weather-forecast-temperature {
+    text-align: center;
+    color: rgb(6, 23, 117);
+    font-size: 17px;
+    font-weight: 400;
+    height: auto;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .humidity-wind {
+    display: inline;
+    margin-left: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:rgb(27, 94, 9)
+  }
+
+  .current-weather img {
+    margin-right: 5px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .current-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+
+  
